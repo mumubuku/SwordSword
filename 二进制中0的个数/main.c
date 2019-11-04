@@ -6,6 +6,11 @@
 //  Copyright © 2019 123. All rights reserved.
 //
 
+
+/*
+ https://blog.csdn.net/wszy1301/article/details/80910626#1.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97
+ */
+
 #include <stdio.h>
 
 //一般的判断一个二进制中1的个数。
