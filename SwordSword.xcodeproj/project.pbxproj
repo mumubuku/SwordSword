@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF6D267023711AEC00706682 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF6D266F23711AEC00706682 /* main.c */; };
+		DF6D267B237125E900706682 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF6D267A237125E900706682 /* main.c */; };
+		DF6D2686237132C300706682 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6D2685237132C300706682 /* main.cpp */; };
+		DF6D26912371458F00706682 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6D26902371458F00706682 /* main.cpp */; };
+		DF6D269C237155D100706682 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6D269B237155D100706682 /* main.cpp */; };
+		DF6D26A723715AEE00706682 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6D26A623715AEE00706682 /* main.cpp */; };
 		DF91FA66236A8C35006DF297 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF91FA65236A8C35006DF297 /* main.c */; };
 		DF91FA73236A9020006DF297 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF91FA72236A9020006DF297 /* main.c */; };
 		DF91FA7E236A905A006DF297 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF91FA7D236A905A006DF297 /* main.c */; };
@@ -19,6 +25,60 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		DF6D266B23711AEC00706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DF6D2676237125E900706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DF6D2681237132C300706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DF6D268C2371458E00706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DF6D2697237155D100706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DF6D26A223715AEE00706682 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		DF91FA60236A8C35006DF297 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +163,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF6D266D23711AEC00706682 /* 数组中重复的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组中重复的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D266F23711AEC00706682 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DF6D2678237125E900706682 /* 数组中只出现一次的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组中只出现一次的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D267A237125E900706682 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DF6D2683237132C300706682 /* 和为S的两个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "和为S的两个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D2685237132C300706682 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF6D268E2371458E00706682 /* 和为s的连续正数序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "和为s的连续正数序列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D26902371458F00706682 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF6D2699237155D100706682 /* 连续子数组的最大和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "连续子数组的最大和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D269B237155D100706682 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF6D26A423715AEE00706682 /* 把数组排成最小的数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "把数组排成最小的数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6D26A623715AEE00706682 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DF91FA62236A8C35006DF297 /* SwordSword */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwordSword; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF91FA65236A8C35006DF297 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF91FA70236A9020006DF297 /* 二进制高位连续0的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二进制高位连续0的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +196,48 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF6D266A23711AEC00706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D2675237125E900706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D2680237132C300706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D268B2371458E00706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D2696237155D100706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D26A123715AEE00706682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF91FA5F236A8C35006DF297 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +304,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF6D266E23711AEC00706682 /* 数组中重复的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D266F23711AEC00706682 /* main.c */,
+			);
+			path = "数组中重复的数字";
+			sourceTree = "<group>";
+		};
+		DF6D2679237125E900706682 /* 数组中只出现一次的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D267A237125E900706682 /* main.c */,
+			);
+			path = "数组中只出现一次的数字";
+			sourceTree = "<group>";
+		};
+		DF6D2684237132C300706682 /* 和为S的两个数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D2685237132C300706682 /* main.cpp */,
+			);
+			path = "和为S的两个数";
+			sourceTree = "<group>";
+		};
+		DF6D268F2371458F00706682 /* 和为s的连续正数序列 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D26902371458F00706682 /* main.cpp */,
+			);
+			path = "和为s的连续正数序列";
+			sourceTree = "<group>";
+		};
+		DF6D269A237155D100706682 /* 连续子数组的最大和 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D269B237155D100706682 /* main.cpp */,
+			);
+			path = "连续子数组的最大和";
+			sourceTree = "<group>";
+		};
+		DF6D26A523715AEE00706682 /* 把数组排成最小的数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D26A623715AEE00706682 /* main.cpp */,
+			);
+			path = "把数组排成最小的数";
+			sourceTree = "<group>";
+		};
 		DF91FA59236A8C35006DF297 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +364,12 @@
 				DF91FABB236AD856006DF297 /* 数组 */,
 				DF91FAC6236AEF64006DF297 /* 链表 */,
 				DF91FAD1236BD746006DF297 /* 整数中1出现的次数 */,
+				DF6D266E23711AEC00706682 /* 数组中重复的数字 */,
+				DF6D2679237125E900706682 /* 数组中只出现一次的数字 */,
+				DF6D2684237132C300706682 /* 和为S的两个数 */,
+				DF6D268F2371458F00706682 /* 和为s的连续正数序列 */,
+				DF6D269A237155D100706682 /* 连续子数组的最大和 */,
+				DF6D26A523715AEE00706682 /* 把数组排成最小的数 */,
 				DF91FA63236A8C35006DF297 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,6 +386,12 @@
 				DF91FABA236AD856006DF297 /* 数组 */,
 				DF91FAC5236AEF64006DF297 /* 链表 */,
 				DF91FAD0236BD746006DF297 /* 整数中1出现的次数 */,
+				DF6D266D23711AEC00706682 /* 数组中重复的数字 */,
+				DF6D2678237125E900706682 /* 数组中只出现一次的数字 */,
+				DF6D2683237132C300706682 /* 和为S的两个数 */,
+				DF6D268E2371458E00706682 /* 和为s的连续正数序列 */,
+				DF6D2699237155D100706682 /* 连续子数组的最大和 */,
+				DF6D26A423715AEE00706682 /* 把数组排成最小的数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +471,108 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF6D266C23711AEC00706682 /* 数组中重复的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D267323711AEC00706682 /* Build configuration list for PBXNativeTarget "数组中重复的数字" */;
+			buildPhases = (
+				DF6D266923711AEC00706682 /* Sources */,
+				DF6D266A23711AEC00706682 /* Frameworks */,
+				DF6D266B23711AEC00706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数组中重复的数字";
+			productName = "数组中重复的数字";
+			productReference = DF6D266D23711AEC00706682 /* 数组中重复的数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DF6D2677237125E900706682 /* 数组中只出现一次的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D267C237125E900706682 /* Build configuration list for PBXNativeTarget "数组中只出现一次的数字" */;
+			buildPhases = (
+				DF6D2674237125E900706682 /* Sources */,
+				DF6D2675237125E900706682 /* Frameworks */,
+				DF6D2676237125E900706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数组中只出现一次的数字";
+			productName = "数组中只出现一次的数字";
+			productReference = DF6D2678237125E900706682 /* 数组中只出现一次的数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DF6D2682237132C300706682 /* 和为S的两个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D2687237132C300706682 /* Build configuration list for PBXNativeTarget "和为S的两个数" */;
+			buildPhases = (
+				DF6D267F237132C300706682 /* Sources */,
+				DF6D2680237132C300706682 /* Frameworks */,
+				DF6D2681237132C300706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "和为S的两个数";
+			productName = "和为S的两个数";
+			productReference = DF6D2683237132C300706682 /* 和为S的两个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DF6D268D2371458E00706682 /* 和为s的连续正数序列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D26922371458F00706682 /* Build configuration list for PBXNativeTarget "和为s的连续正数序列" */;
+			buildPhases = (
+				DF6D268A2371458E00706682 /* Sources */,
+				DF6D268B2371458E00706682 /* Frameworks */,
+				DF6D268C2371458E00706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "和为s的连续正数序列";
+			productName = "和为s的连续正数序列";
+			productReference = DF6D268E2371458E00706682 /* 和为s的连续正数序列 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DF6D2698237155D100706682 /* 连续子数组的最大和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D269D237155D100706682 /* Build configuration list for PBXNativeTarget "连续子数组的最大和" */;
+			buildPhases = (
+				DF6D2695237155D100706682 /* Sources */,
+				DF6D2696237155D100706682 /* Frameworks */,
+				DF6D2697237155D100706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "连续子数组的最大和";
+			productName = "连续子数组的最大和";
+			productReference = DF6D2699237155D100706682 /* 连续子数组的最大和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DF6D26A323715AEE00706682 /* 把数组排成最小的数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6D26A823715AEE00706682 /* Build configuration list for PBXNativeTarget "把数组排成最小的数" */;
+			buildPhases = (
+				DF6D26A023715AEE00706682 /* Sources */,
+				DF6D26A123715AEE00706682 /* Frameworks */,
+				DF6D26A223715AEE00706682 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "把数组排成最小的数";
+			productName = "把数组排成最小的数";
+			productReference = DF6D26A423715AEE00706682 /* 把数组排成最小的数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		DF91FA61236A8C35006DF297 /* SwordSword */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF91FA69236A8C35006DF297 /* Build configuration list for PBXNativeTarget "SwordSword" */;
@@ -459,6 +735,24 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = 123;
 				TargetAttributes = {
+					DF6D266C23711AEC00706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DF6D2677237125E900706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DF6D2682237132C300706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DF6D268D2371458E00706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DF6D2698237155D100706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DF6D26A323715AEE00706682 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					DF91FA61236A8C35006DF297 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -510,11 +804,65 @@
 				DF91FAB9236AD856006DF297 /* 数组 */,
 				DF91FAC4236AEF64006DF297 /* 链表 */,
 				DF91FACF236BD746006DF297 /* 整数中1出现的次数 */,
+				DF6D266C23711AEC00706682 /* 数组中重复的数字 */,
+				DF6D2677237125E900706682 /* 数组中只出现一次的数字 */,
+				DF6D2682237132C300706682 /* 和为S的两个数 */,
+				DF6D268D2371458E00706682 /* 和为s的连续正数序列 */,
+				DF6D2698237155D100706682 /* 连续子数组的最大和 */,
+				DF6D26A323715AEE00706682 /* 把数组排成最小的数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF6D266923711AEC00706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D267023711AEC00706682 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D2674237125E900706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D267B237125E900706682 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D267F237132C300706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D2686237132C300706682 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D268A2371458E00706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D26912371458F00706682 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D2695237155D100706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D269C237155D100706682 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D26A023715AEE00706682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6D26A723715AEE00706682 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF91FA5E236A8C35006DF297 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,6 +938,102 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		DF6D267123711AEC00706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D267223711AEC00706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6D267D237125E900706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D267E237125E900706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6D2688237132C300706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D2689237132C300706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6D26932371458F00706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D26942371458F00706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6D269E237155D100706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D269F237155D100706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6D26A923715AEE00706682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6D26AA23715AEE00706682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DF91FA67236A8C35006DF297 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -846,6 +1290,60 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF6D267323711AEC00706682 /* Build configuration list for PBXNativeTarget "数组中重复的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D267123711AEC00706682 /* Debug */,
+				DF6D267223711AEC00706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D267C237125E900706682 /* Build configuration list for PBXNativeTarget "数组中只出现一次的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D267D237125E900706682 /* Debug */,
+				DF6D267E237125E900706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D2687237132C300706682 /* Build configuration list for PBXNativeTarget "和为S的两个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D2688237132C300706682 /* Debug */,
+				DF6D2689237132C300706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D26922371458F00706682 /* Build configuration list for PBXNativeTarget "和为s的连续正数序列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D26932371458F00706682 /* Debug */,
+				DF6D26942371458F00706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D269D237155D100706682 /* Build configuration list for PBXNativeTarget "连续子数组的最大和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D269E237155D100706682 /* Debug */,
+				DF6D269F237155D100706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6D26A823715AEE00706682 /* Build configuration list for PBXNativeTarget "把数组排成最小的数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6D26A923715AEE00706682 /* Debug */,
+				DF6D26AA23715AEE00706682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DF91FA5D236A8C35006DF297 /* Build configuration list for PBXProject "SwordSword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
